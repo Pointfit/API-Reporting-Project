@@ -37,12 +37,12 @@ This project demonstrates an end-to-end data pipeline that:
 - Create a database named materials_project.
 - Use the table schema provided in scripts/insert_patents.py to set up the database.
 
-4. ***Run the pipeline: Fetch, clean, and insert the data into PostgreSQL:***
+4. **Run the pipeline: Fetch, clean, and insert the data into PostgreSQL:**
    ```bash
    python scripts/patent_pipeline.py
    ```
    
-5. ***Generate visualizations: Produce visual insights and save them to the visualizations folder:***
+5. **Generate visualizations: Produce visual insights and save them to the visualizations folder:**
    ```bash
    python scripts/visualization.py
    ```
