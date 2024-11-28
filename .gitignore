@@ -1,0 +1,13 @@
+# Ignore sensitive files
+.env
+
+# Ignore output directories
+data/
+visualizations/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore IDE files
+.idea/
